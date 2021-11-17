@@ -9,11 +9,11 @@ def call_api(data):
     headers = {
         'Content-Type': 'application/json'
     }
-    server = 'https://api.twman.org/SpeechRecognition'
+    server = 'http://api.twman.org/SpeechRecognition'
     response = requests.post(server, headers=headers, json=data, verify=False)
     return response.json()
 
-sampling_rate, request_wav = wavfile.read('D:\TW_DEEP_MASTER\TonSpeech.wav')
+sampling_rate, request_wav = wavfile.read('./TonSpeech.wav')
 
 
 data = {"token":"Deep Learning 101", "model_type":"asr_omega","input_wav":request_wav.tolist()}
