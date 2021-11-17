@@ -1,0 +1,219 @@
+{
+  "version": 6,
+  "entities": [
+    {
+      "entity": {
+        "type": "Project",
+        "id": "89569742-4176-4e15-b419-bee4bc4b6d54",
+        "name": "Deep Learning 101"
+      },
+      "children": [
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "{\n  \"token\":\"Deep Learning 101\",\n  \"model_type\":\"bert_base_msra\",\n  \"input_text\":\"台灣第一名模林志玲嫁給日本人\"\n}"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "api.twman.org",
+              "path": "/NamedEntityRecognition"
+            },
+            "id": "ea5420e9-821f-4689-8f81-6ee843988fd7",
+            "name": "中文命名實體識別 (NER)",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "{\n  \"token\":\"Deep Learning 101\",\n  \"model_type\":\"bert_lstm_service\",\n  \"input_text\":\"辛苦老師啦，很喜歡你的上課風格會再向學弟妹推薦您\"\n}"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "api.twman.org",
+              "path": "/TextClassification"
+            },
+            "id": "296e6e5e-fa6c-4ff3-b8d5-77430e30de20",
+            "name": "中文文本分類",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "{\n  \"token\":\"Deep Learning 101\", \n  \"model_type\":\"albert\", \n  \"input_text_1\":\"洗手間怎麼走\", \n  \"input_text_2\":\"廁所在那邊\"\n}"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "api.twman.org",
+              "path": "/TextSimilarity"
+            },
+            "id": "2c024b7d-d034-4b6c-b9bf-bf816485b0dd",
+            "name": "中文文本相似度",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "{\n  \"token\":\"Deep Learning 101\",\n  \"model_type\":\"bert\",\n  \"input_text\":\"金天天汽真好，敢覺行鄭院不錯\"\n}"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "api.twman.org",
+              "path": "/TextCorrection"
+            },
+            "id": "d5d233ae-f9a6-4e83-819b-d4ea3b775503",
+            "name": "中文文本糾錯",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        },
+        {
+          "entity": {
+            "type": "Request",
+            "method": {
+              "requestBody": true,
+              "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+              "name": "POST"
+            },
+            "body": {
+              "formBody": {
+                "overrideContentType": true,
+                "encoding": "application/x-www-form-urlencoded",
+                "items": []
+              },
+              "bodyType": "Text",
+              "textBody": "{\n  \"token\":\"Deep Learning 101\",\n  \"context_ls\":[\n    \"人氣動畫《鬼滅之刃》首部劇場版《無限列車篇》上週正式在台上映，立刻掀起全台觀影熱潮，3天票房勇破1.1億，迅速登上年度動畫票房冠軍，同時也是今年開片日票房冠軍，更是今年最快破億電影，後勢持續看漲。代理發行該片的木棉花昨也正式宣布，本週五（6日）將加映中文配音版本，以及影迷不停敲碗的「IMAX」版。\",\n    \"台北市長柯文哲拋出結婚補助政策，引發熱議。民進黨北市議員王閔生今質疑，結婚補助真能解決少子化？補助結婚政策恐倒果為因？是否成效不佳，還要推「進洞房補助」？柯文哲回應，之所以提出結婚補助政策，是因台北市有高達35%的人不結婚，所以解決少子化，結婚是先決條件。\",    \n    \"科比布萊恩共取得5座NBA總冠軍、2次總決賽最有價值球員、1次年度最有價值球員、15次入選NBA最佳陣容、18次入選全明星賽，科比位居聯盟生涯例行賽得分第四名以及生涯季后賽得分第四名。他共入選18次全明星賽是有史以來第二多，同時也創下連續先發場數的記錄。2000年代中期，科比為自己的綽號取為「黑曼巴」（BLACK MAMBA）。2008年和2012年夏季奧運會，科比以美國國家隊成員身份獲得兩枚金牌。2018年，科比編劇及旁白配音的動畫短片《親愛的籃球》獲得奧斯卡最佳動畫短片獎。\"],\n  \"question\":\"奧斯卡最佳動畫短片獎的作者的綽號是什麼\"\n}"
+            },
+            "uri": {
+              "query": {
+                "delimiter": "&",
+                "items": []
+              },
+              "scheme": {
+                "secure": true,
+                "name": "https",
+                "version": "V11"
+              },
+              "host": "api.twman.org",
+              "path": "/QuestionAnsweringPlus"
+            },
+            "id": "4a1d80e9-47d9-448f-9176-d150e6bf2d4c",
+            "name": "中文機器閱讀理解 (MRC)",
+            "headers": [
+              {
+                "enabled": true,
+                "name": "Content-Type",
+                "value": "application/json"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
