@@ -1,0 +1,2451 @@
+0
+00:00:03,860 --> 00:00:06,140
+Welcome to see us between our machine learning.
+
+1
+00:00:06,460 --> 00:00:16,950
+So you know that this closet to the Stanford for a long time, and this is often the class that I most look forward to teaching each year, because this is where we helped, I
+
+2
+00:00:17,130 --> 00:00:19,070
+think, several generations of stand for students become
+
+3
+00:00:19,490 --> 00:00:21,470
+expert in machine learning. Gal built
+
+4
+00:00:21,690 --> 00:00:28,640
+many of their products and services and startups that I'm sure many of you will pray all of you are using today.
+
+5
+00:00:29,440 --> 00:00:41,530
+So what I want to do today was spend some time talking over logistics, and then spend some time giving you a beginning of an intro talk a little bit about machine learning.
+
+6
+00:00:42,090 --> 00:01:03,250
+So about two, three, nine, um, you know, all of you have been reading about AI in the news, about machine learning in the news, and you pray, heard me, or they say, AI is in electricity, much as a rise of electricity about 100 years ago transform every major industry.
+
+7
+00:01:03,630 --> 00:01:10,780
+I think AI already, we call it machine learning, for the rest of the world, seems to call AI machine learning.
+
+8
+00:01:10,960 --> 00:01:13,720
+And AI and deep learning will change the world.
+
+9
+00:01:13,880 --> 00:01:48,700
+And I hope that through two, between nine, will give you the tools you need so that you can be many of these future titans of industries, that you can be one to go out and build, you know, help the lush tech companies do the amazing things they do, or build your own start up, or go into some other industry, go go transform health care, or go transform transportation, or go build the start driving car, and do all of these things that, um, after this class, thinking you'd be able to do, you know, um, the majority of students applying the The demand for AI skills, the demand for machine learning skills, is so vast.
+
+10
+00:01:48,860 --> 00:01:50,040
+I think you all know that.
+
+11
+00:01:50,350 --> 00:02:02,150
+And I think it's because machine learning has advanced so rapidly in the last few years that there are so many opportunities to apply learning algorithms right, both in industry, as was in academia.
+
+12
+00:02:02,330 --> 00:02:09,120
+I think today we have the English Department professors trying to apply learning algorithms to understand history better.
+
+13
+00:02:09,210 --> 00:02:14,570
+We have lawyers trying to apply machine learning into process legal documents and off campus.
+
+14
+00:02:14,910 --> 00:02:22,810
+Every company both detect companies as well as a lot of companies that you wouldn't consider tech companies, everything from manufacturing companies to health care companies.
+
+15
+00:02:23,220 --> 00:02:26,560
+The just six companies are also trying to apply machine learning.
+
+16
+00:02:26,720 --> 00:02:39,670
+So I think that, uh, if you look at it on a on a factual basis, the number of people doing very valuable machine learning projects today is much greater than it was six months ago.
+
+17
+00:02:39,690 --> 00:02:42,540
+And six months ago was much greater than it was twelve months ago.
+
+18
+00:02:42,700 --> 00:02:50,220
+And the amount of value, the amounts of exciting, meaningful work being done, the machine learning, is very strongly going up.
+
+19
+00:02:50,700 --> 00:03:09,600
+And I think that given the rise of, you know, the amount of data we have, as well as the new machine learning tools that we have, it will be a long time before we run out of opportunities, before society as a whole has enough people with a machine learning school set.
+
+20
+00:03:10,490 --> 00:03:22,140
+So just as maybe, I don't know, 20 years ago was a good time to start working on this Internet thing, and a lot of people that started working on the Internet, like 20 years ago, fantastic careers.
+
+21
+00:03:22,360 --> 00:03:26,140
+I think today is a wonderful time to jump to machine learning.
+
+22
+00:03:27,060 --> 00:03:33,880
+And the number of and the opportunities for you to do unique things that no one has, no one else is doing right?
+
+23
+00:03:33,940 --> 00:03:52,120
+The opportunity for you to go to logistics company and find a exciting way to apply machine learning uh will be very high, because chances are that logistic company has no one else even working on this, because, you know, they probably can't, they may not be able to hire a fantastic Sanford student as a graduate, cst29, right?
+
+24
+00:03:52,180 --> 00:03:54,500
+Because they're just on the law of CSD and graduate.
+
+25
+00:03:55,000 --> 00:04:10,250
+Um, so what I want to do today is, um, do a quick control talking about logistics, and then we will spend a 2nd half of today giving an overview and talk a little bit more about machine learning.
+
+26
+00:04:10,510 --> 00:04:15,270
+Okay, and when I apologize, I think that this room acquainted that sign.
+
+27
+00:04:15,430 --> 00:04:18,450
+There seats, what, 300 something students.
+
+28
+00:04:19,210 --> 00:04:24,330
+I we have a like, not quite 800 people and road in this class.
+
+29
+00:04:25,650 --> 00:04:35,050
+So there are people outside, and all of the classes are recorded broadcast on SIPD They usually, the videos usually made available same day.
+
+30
+00:04:35,210 --> 00:04:39,130
+So for those of you that can't get into the room of my apologies there.
+
+31
+00:04:39,190 --> 00:04:43,870
+There were some years where even I had trouble getting into the room, but I'm glad that.
+
+32
+00:04:44,590 --> 00:04:49,430
+But hopefully you can wash, you, you better wash all of these things online shortly.
+
+33
+00:04:50,550 --> 00:04:55,540
+Oh, I see, yes, yeah, I don't know, it's a bit complicated.
+
+34
+00:04:55,740 --> 00:05:04,510
+Yeah, thank you. I think it's okay, yeah, for next few classes, you can squeeze in and use up the NTC.
+
+35
+00:05:04,670 --> 00:05:05,230
+So for now, it might be
+
+36
+00:05:05,430 --> 00:05:07,990
+too complicated.
+
+37
+00:05:08,400 --> 00:05:11,720
+So, quick and chose, um, oh, I'm sorry.
+
+38
+00:05:11,740 --> 00:05:20,460
+I should have interested myself. My name is Andrew, and I want to introduce some of the rest of the teaching team as well.
+
+39
+00:05:22,330 --> 00:05:23,230
+It's a class
+
+40
+00:05:23,670 --> 00:05:25,270
+coordinator. She
+
+41
+00:05:25,550 --> 00:05:27,590
+has been playing this role for many years now,
+
+42
+00:05:27,750 --> 00:05:33,370
+and helps keep the trains run on time and make sure that everything class happens when is supposed to.
+
+43
+00:05:33,910 --> 00:05:46,650
+So so should be a And then, uh, we're thrilled to because we stand up be the cohead tiers are respective the PC students working with me.
+
+44
+00:05:47,650 --> 00:05:57,780
+And so bring a lot of technical experience, technical experience in machine learning, as was practical, know how on how to actually make these things work.
+
+45
+00:05:58,120 --> 00:06:01,700
+And with the last class that we have, we have a launch T-A team.
+
+46
+00:06:01,740 --> 00:06:13,150
+Maybe I won't introduce all of the tas here today, but you meet many of them throughout the scores her But the t a's expertise spend everything from contributions in actual language processing to capture biology, robotics.
+
+47
+00:06:13,310 --> 00:06:29,830
+And so through this quarter, as you work on your class projects, I hope that you get a lot of hope and advisementary from the ts, all of which all of whom have deep expertise, not just a machine learning, but often in a specific, vertical application area of machine learning.
+
+48
+00:06:29,990 --> 00:06:39,220
+So it depends on what your projects, we try to match you to A-T-A, they can give you advice the most relevant, whatever project you end up working on.
+
+49
+00:06:39,700 --> 00:06:49,110
+Um, so, you know, go at this class, I hope that after the next ten weeks, uh, you will be an expected machine learning um.
+
+50
+00:06:49,450 --> 00:06:53,460
+It turns out that, uh, uh, you know.
+
+51
+00:06:54,100 --> 00:07:14,090
+And I hope that after this class, you give the girls and built very meaningful machine learning applications, either in academic setting, where hope that you can apply it to your problems in the cantering engineering and English and law and and and education.
+
+52
+00:07:14,110 --> 00:07:21,390
+And all of this wonderful work that happens on campus, as was off the graduate Stanford, to be applied to whatever jobs you find.
+
+53
+00:07:21,710 --> 00:07:30,250
+One of the things I find very exciting about machine learning is that is no longer a pure tech company only kind of thing, right?
+
+54
+00:07:30,410 --> 00:07:42,520
+I think that many years ago, machine learning, it was like a thing that, you know, the Computer Science Department would do, and that the elite AI companies like Google and Facebook can buy Due and Microsoft would do.
+
+55
+00:07:42,640 --> 00:07:50,920
+But it is so pervasive that even companies that are not traditionally tech companies see a huge need to apply these tools.
+
+56
+00:07:51,080 --> 00:07:54,140
+And I find a lot of the most exciting work these days.
+
+57
+00:07:54,340 --> 00:07:57,620
+And and maybe some of you guys know my history is I'm a little bit biased.
+
+58
+00:07:57,840 --> 00:08:05,630
+I-I let the Google Brain team, which helped Google transform from what was already a great company ten years ago to today, which is great AI company.
+
+59
+00:08:05,790 --> 00:08:18,660
+And then also let the AI group, that by due and, you know, let the company's technology strategy to help by do, also transform from what was already a great company many years ago to today, argue of the china's greatest AI companies.
+
+60
+00:08:18,720 --> 00:08:27,780
+So having let the, you know, build the teams that let the AI transformations of two large tech companies, I-I feel like that's a great thing to do.
+
+61
+00:08:27,960 --> 00:08:37,800
+But even beyond tech, I think that there's a lot of exciting work to do as well, to help other industries, to help other sectors embrace machine learning and use these tools effectively.
+
+62
+00:08:38,640 --> 00:08:51,810
+But after this class, I hope that each one of you will be well qualified to get a job at a shiny tech company and do machine learning there, or go into one of these other industries and do very valuable machine learning projects there.
+
+63
+00:08:52,110 --> 00:09:02,580
+UM And in addition, if any of you UM are taking this class, with the primary go of being able to do research in machine learning.
+
+64
+00:09:02,760 --> 00:09:16,990
+So so actually, except some of you I know, PHD students, I hope that this class will also leave you well equipped to really read and understand research papers, as well as be qualified to start pushing forward.
+
+65
+00:09:17,010 --> 00:09:19,370
+Um, the state of the art.
+
+66
+00:09:20,570 --> 00:09:28,240
+UM So let's see. UM So today?
+
+67
+00:09:28,400 --> 00:09:32,300
+Uh, so, so just this, machine learning is evolving rapidly.
+
+68
+00:09:32,570 --> 00:09:37,870
+The whole teaching team, who have been constantly updating cst29 as well.
+
+69
+00:09:38,030 --> 00:09:42,670
+So it's actually very interesting. I feel like the pace of progress in machine learning has accelerated.
+
+70
+00:09:42,830 --> 00:09:50,200
+So it it actually feels like that the amount we change the class year over year has been increasing over time.
+
+71
+00:09:50,360 --> 00:10:01,730
+So so if you're friends that took the class last year, you know, things are a little bit different this year, because we're constantly updating the class to keep up with what feels like still accelerating progress in the whole field of machines.
+
+72
+00:10:02,730 --> 00:10:06,430
+So so so there are some logical changes, e.g.
+
+73
+00:10:06,590 --> 00:10:11,230
+we've gone from we used to hand out paper copies of handouts, that
+
+74
+00:10:11,370 --> 00:10:13,570
+we're trying to make this class digital.
+
+75
+00:10:14,410 --> 00:10:22,630
+But let me talk a little bit about prerequisites as well as in case your friends have taken this class for some of the differences for this year, right?
+
+76
+00:10:22,810 --> 00:10:31,430
+Um. So, prerequisites, um, we are going to assume that, um, all of you have a knowledge of basic
+
+77
+00:10:31,630 --> 00:10:33,030
+computer skills and principles.
+
+78
+00:10:33,470 --> 00:10:35,430
+So, you know, big old notation, cues, stands,
+
+79
+00:10:35,790 --> 00:10:39,650
+binary trees. Hopefully you understand what all of those concepts are.
+
+80
+00:10:39,910 --> 00:10:45,270
+And assumed that all you have a basic familiarity with um probability, right?
+
+81
+00:10:45,430 --> 00:10:48,750
+That hopefully you know what's unavailable was expected value.
+
+82
+00:10:48,770 --> 00:11:01,260
+A very unavailable was the veirance of a unavailable And if for some of you, maybe especially the SPD students, taking those wrongly, it has been, you know, some number of years since you lost at the Probability of Statistics class.
+
+83
+00:11:01,380 --> 00:11:08,460
+We will have review sessions on Fridays where we will go over some of this prerequisite material as well.
+
+84
+00:11:09,060 --> 00:11:11,760
+Hopefully, you know what around variables, what expected value is.
+
+85
+00:11:11,920 --> 00:11:19,240
+But if you are a little bit fuzzy on those concepts, we'll go over them again at a at a discussion section on Friday.
+
+86
+00:11:19,400 --> 00:11:22,100
+Also seemed the mirror basically in algebra.
+
+87
+00:11:22,260 --> 00:11:28,110
+So hopefully that you know, was a matrix, was a vector, how to multiply two matrices, or multiply matrices in a vector.
+
+88
+00:11:28,350 --> 00:11:32,030
+If you know what an eigenvector, then that's even better.
+
+89
+00:11:32,290 --> 00:11:36,630
+If you're not quite sure when an eigenvector as we'll go over it, that you you you better.
+
+90
+00:11:36,870 --> 00:11:39,030
+Yeah, well, we'll, we'll go, right, I guess.
+
+91
+00:11:39,510 --> 00:11:55,560
+Um. And then, um, a large part of this class is having you practice these ideas through the homework, as well, as I mentioned later, a open ended project.
+
+92
+00:11:55,820 --> 00:12:09,340
+And so, um, one there. We've actually, until now, we used to use a mat lab, an active for their pro assignments, but this year we're trying to shift the pro assignments to Python.
+
+93
+00:12:09,760 --> 00:12:21,730
+And so I think for a long time, even today, you know, I sometimes use octave to prototype because the syntax octave is so nice, and just run very simple experience very quickly.
+
+94
+00:12:21,910 --> 00:12:38,670
+But I think the machine learning world is, you know, really migrating, I think, from um met, that Python world, to, increasing, excuse me, mad, that active world, to increasingly a Python maybe, and then eventually for production, java C plus plus kind of world.
+
+95
+00:12:38,830 --> 00:12:59,120
+And so we're rewriting a lot of the assignments that disclose the schoolter having driving that process, so that so that discourse, you could do more of the assignments, maybe most, maybe all of the assignments in Python NUMPI instead now, not on the on the code.
+
+96
+00:12:59,440 --> 00:13:03,330
+We asked that we, we actually encourage you the phone study groups.
+
+97
+00:13:03,570 --> 00:13:15,730
+So so, you know, I've been, um, fascinated by education a long time, so a long time, studying education in pedagogy, and how instructors like us can help support you to learn more efficiently.
+
+98
+00:13:15,890 --> 00:13:26,040
+And one of the lessons I've learned from the educational research literature is that the highly technical classes like this, if you form study groups, you will probably have an easier time.
+
+99
+00:13:26,200 --> 00:13:30,190
+Right? So so see, a student and I, we go for the highly technical material, there's a lot of math.
+
+100
+00:13:30,350 --> 00:13:34,130
+Some other programs are hard, and they have a group of friends to study with.
+
+101
+00:13:34,510 --> 00:13:39,590
+You probably have an easier time, because you can ask each other questions and work help each other.
+
+102
+00:13:40,030 --> 00:13:51,810
+Where we ask you to draw the line, or what we ask you to to do, relative to the standards on the code, is we ask that you do the homework problems by yourself, right?
+
+103
+00:13:51,930 --> 00:14:08,090
+And and more specifically, is OK to discuss the homework problems of friends, but if you but after discussing homework problems with friends, we all see you to go back and write to the solutions by yourself, without referring to notes that you know you and your friends have developed together.
+
+104
+00:14:09,010 --> 00:14:15,730
+The classes on a coat is written clearly on the class on handouts posted digitally on their website.
+
+105
+00:14:15,910 --> 00:14:43,360
+So if you ever have any questions about what is the law collaboration and what is in allow piece, referred to that written document on the closed website, where we described us more clearly, but all the respect for the sad Economic code, as well as for students kind of doing their own work, We ask you to basically do your own work for the z OK to discuss it, but after discussing whole problems with friends, ultimately we ask you to write up your problems by yourself.
+
+106
+00:14:43,770 --> 00:14:47,590
+The whole world submissions reflect your own work, right?
+
+107
+00:14:47,670 --> 00:14:56,070
+And I care about this because it turns out that having cs 02:29, you know, CST29 is one of those classes that employers recognize.
+
+108
+00:14:56,390 --> 00:15:08,190
+I don't know if you guys know, but there have been companies that have put up job ads that say stuff like, so long as you've got so last you complete the C-S-T, three, nine, we guarantee you get an interview, right?
+
+109
+00:15:08,350 --> 00:15:29,060
+I've seen stuff like And so I think, you know, in order to to maintain that sanctity of what it means to be a CSU to noncomplete, and I also all of you so that really do your own work, or stay within the bounds of accepted a sexual collaboration relatively on code, let's see.
+
+110
+00:15:29,220 --> 00:15:31,870
+And I think that, um, uh, if, uh,
+
+111
+00:15:32,900 --> 00:15:35,630
+you know what this is? Um.
+
+112
+00:15:36,580 --> 00:15:38,070
+And I think that, uh,
+
+113
+00:15:38,400 --> 00:15:54,990
+one of the best parts of CS two, three, nine, it turns out, is, um, excuse me, sorry, I'm gonna try looking for my mouse cursor.
+
+114
+00:16:08,490 --> 00:16:16,350
+All right, serve all that my displays are not mirrors, so this is a little bit awkward.
+
+115
+00:16:22,670 --> 00:16:29,300
+So one of the best parts of the classes.
+
+116
+00:16:30,100 --> 00:16:35,740
+Sorry about that. All right, no mind, I won't do this.
+
+117
+00:16:36,900 --> 00:16:39,560
+You can do that. You can do yourself online later.
+
+118
+00:16:39,720 --> 00:16:56,740
+Um, yeah. I started using, I started using five false reasons in addition to control, just to mix up, one of the best parts of the class is, um, the class project.
+
+119
+00:16:57,260 --> 00:17:03,700
+And so, you know, one of the goals of the class is to leave you well qualified to do a meaningful machine learning project.
+
+120
+00:17:03,880 --> 00:17:09,610
+And so one of the best ways to make sure you have that skill set is through this class.
+
+121
+00:17:09,770 --> 00:17:19,220
+And hopefully with the hope of some of at eight, we want to support you to work on a small group to complete a meaningful machine learning project.
+
+122
+00:17:19,300 --> 00:17:44,990
+And so one thing I hope you start doing, you know, later today, is to start brainstorming, maybe of your friends, some of the, some of the class projects you might work on, and the most common class project that people do in CSC nine, it's the pick an area, pick an application that excites you, and to apply machine learning to it and see if it can build a good machine learning system for some application in the area.
+
+123
+00:17:45,330 --> 00:18:39,750
+And so if you go to the course website, you know, CST29, or Sanford ied, you, and look at previous years projects, you see machine learning projects applied to pretty much, you know, pretty much every imaginable application under the sun, everything from diagnosing cancer to creating art, to lots of projects applied to other areas of engineering, applying to African engineers in double e or macaging, or Soviet engineering, or earthquake engineering, and so on, to applying it to understand literature, to applying it to, um, I don't know, and and and so if you look at the previous years projects, many of which are posted on the course website, you can use that as inspiration to see the types of project students completing this class are able to do, and also encourage you to, you can look at that for inspiration to get a sense of what you'll be able to do at the conclusion of this class.
+
+124
+00:18:40,030 --> 00:18:47,410
+And also see if looking at previous years projects gives you inspiration for what you might do yourself.
+
+125
+00:18:47,870 --> 00:18:52,730
+So we also, we, we invite you, I guess, to do class projects in small groups.
+
+126
+00:18:52,890 --> 00:19:04,740
+And so after class today, it also encourages you to start making friends in the class, both for the purpose of forming study groups, as was for the purpose of maybe finding a small group to do a class project with.
+
+127
+00:19:05,500 --> 00:19:10,020
+We asked you to form project groups of up to size three.
+
+128
+00:19:10,460 --> 00:19:13,710
+Most project groups end up being size two or three.
+
+129
+00:19:14,090 --> 00:19:19,070
+If you insist on doing it by yourself, without any partners, that's actually OK to you're welcome to do that.
+
+130
+00:19:19,350 --> 00:19:24,610
+But, but I think often, you know, having one or two others to work with may give you an easier time.
+
+131
+00:19:24,950 --> 00:19:32,990
+And for projects of exceptional scope, if you have a very, very large project, there just cannot be done by three people sometimes, you know, let us know.
+
+132
+00:19:33,010 --> 00:19:39,610
+And we're open to some project groups of size for but our expectation.
+
+133
+00:19:40,040 --> 00:19:53,380
+But we do hold projects, you know, with a group of four to a higher standard than projects with size one to So what that means is that if your project team size is one, two or three persons, the grading is one criteria.
+
+134
+00:19:53,700 --> 00:20:00,260
+If your project group is bigger than three persons, we use a strict criteria when it comes to grading class projects.
+
+135
+00:20:00,420 --> 00:20:04,320
+Okay, um. Oh, and that that reminds me.
+
+136
+00:20:04,530 --> 00:20:06,790
+Uh, I know that. Let's see.
+
+137
+00:20:06,950 --> 00:20:10,070
+So for most of you, since since it started at 09:30 a.m.
+
+138
+00:20:10,170 --> 00:20:15,840
+on the 1st of the quarter, for many of you, this may be this is probably your very 1st cause at Stanford.
+
+139
+00:20:16,000 --> 00:20:18,240
+For how many of you, this is your very 1st cause at Stanford.
+
+140
+00:20:18,760 --> 00:20:21,910
+Wow. Cool. Okay, awesome. Great. Welcome to Stanford.
+
+141
+00:20:23,120 --> 00:20:25,880
+And someone next to you, just raise your hand.
+
+142
+00:20:26,070 --> 00:20:33,840
+Actually raise your hand again. So I hope that maybe after class today, if someone next to you raise your hand, hope welcome them to Stanford, and then say, hi.
+
+143
+00:20:34,000 --> 00:20:35,840
+And she usually sells and make friends off the way.
+
+144
+00:20:36,000 --> 00:20:37,520
+Yeah, cool. Nice. Nice to see sell only
+
+145
+00:20:37,640 --> 00:20:39,870
+of you. Yeah.
+
+146
+00:20:44,600 --> 00:20:51,920
+All right, so, um, just a bit more logistics.
+
+147
+00:20:53,720 --> 00:21:17,220
+So, um, let's see, in addition to the main lectures that will have here on Mondays and Wednesdays, CCT nine also has discussion sections on held on Fridays that are And everything we do, including the see all the lectures and discussion sections have recorded and broadcast through SPD, through the online website.
+
+148
+00:21:17,680 --> 00:21:25,440
+And one of and discussion sections are taught, usually by the tiers on Fridays.
+
+149
+00:21:25,690 --> 00:21:28,390
+And attendance at discussion sections is optional.
+
+150
+00:21:28,430 --> 00:21:36,770
+And what what I mean is that you, you know, you hundred percent promise there won't be material on the meter, and there will sneak in from the design section.
+
+151
+00:21:36,790 --> 00:21:43,260
+So it's hundred percent optional. And you will be able to do all the homework and the proper projects without attending the discussion section.
+
+152
+00:21:43,420 --> 00:21:47,370
+But what we're used to discussion section for for the 1st V discussion section.
+
+153
+00:21:47,530 --> 00:21:54,050
+So, you know, this week, next week, the week after that, we're used to discussion sections to go over prerequisite material and greater death.
+
+154
+00:21:54,210 --> 00:22:02,900
+So go over the algebra, basic problem statistics, teach a little bit about Python Numpi, in case you're less familiar with those brain frameworks.
+
+155
+00:22:02,930 --> 00:22:13,520
+So do that for the 1st few weeks, and then for the discussion sections that I hope later this quarter, will usually use them to go over more advanced, optional materials, e.g.
+
+156
+00:22:13,680 --> 00:22:20,780
+CS29. A lot of the learning algorithms you hear about in a class rely on conveys optimization algorithms.
+
+157
+00:22:20,960 --> 00:22:27,500
+But we want to focus the class on the learning algorithms and spend less time on Congress optimization.
+
+158
+00:22:27,540 --> 00:22:30,400
+So we want to come and hear about more advanced concepts.
+
+159
+00:22:30,420 --> 00:22:34,260
+And Convex Optimization will defer that the discussion section.
+
+160
+00:22:34,340 --> 00:22:45,290
+And then there there are few other advanced topics, hinomocov models, time series, that were planning to defer to the Friday discussion sections.
+
+161
+00:22:45,450 --> 00:22:53,280
+Okay, um, so, uh, let's see, um, cool.
+
+162
+00:22:53,440 --> 00:23:08,720
+And, oh, and, um, uh, final bit of logistics, uh, for there'll be, there are digital tools that somebody were seen, but for this class, will drive a lot of the discussion through the online website.
+
+163
+00:23:08,880 --> 00:23:10,860
+Piazza. How have you have used Piazza?
+
+164
+00:23:11,370 --> 00:23:13,790
+Okay. Cool. Most. Wow. All of you.
+
+165
+00:23:13,950 --> 00:23:28,210
+That's very easy. Okay, so so online discussion board, for those of you that haven't seen it before, but definitely encourage you to participate actively on Piazza, and also to answer other students questions.
+
+166
+00:23:28,370 --> 00:23:41,460
+I think that one of the best ways to learn, as well as contribute back to the cause as a whole, is if you see someone else ask a question on Piazza, if you jump in and help answer that, that often helps you and helps your classmates.
+
+167
+00:23:41,620 --> 00:23:44,400
+So I strongly encourage you to do that.
+
+168
+00:23:44,640 --> 00:24:01,500
+For those of you that have a private question, you know, sometimes we have students reach out to us to with a personal matter or something that is not appropriate to share on the public farm room, in which case you're welcome to email us at the cost email address as well.
+
+169
+00:24:01,620 --> 00:24:06,360
+And we also and the cost email address the teaching staffs email address on the course website.
+
+170
+00:24:06,380 --> 00:24:08,060
+You can find it there in contact us.
+
+171
+00:24:08,340 --> 00:24:16,860
+But for anything technical or anything reasonable, to share the class, which includes most technical questions and most logistical questions, right?
+
+172
+00:24:17,020 --> 00:24:21,120
+Questions like, you know, can you confirm what day does mitter or, or, you know, what happens?
+
+173
+00:24:21,960 --> 00:24:24,380
+Can you confirm whence a handout for this going on?
+
+174
+00:24:24,400 --> 00:24:40,790
+And so on. For questions that are not personal or private in nature, strongly encourages you to post on piazza rather than emailing us, because statistically, you actually get a faster answer posting this, on posting on piazza than than you know, if you wait for one of us to respond to you.
+
+175
+00:24:40,990 --> 00:24:46,080
+And we'll be using great scope as well for online rating.
+
+176
+00:24:46,420 --> 00:24:48,920
+And if you don't know why Grace scope is, don't worry about it.
+
+177
+00:24:49,040 --> 00:24:53,010
+Will will send you links, show you how to use it later.
+
+178
+00:24:53,250 --> 00:24:59,450
+Um. Oh, and again, relative to one, one last vegetable thing to plan for.
+
+179
+00:25:00,660 --> 00:25:12,220
+Unlike previous, um, years, where we taught cs between nine So we're constantly updating the serbs, right the technical content to try to show you the latest machine learning algorithms.
+
+180
+00:25:12,340 --> 00:25:16,870
+And the two big original changes we're making this year, I guess.
+
+181
+00:25:17,030 --> 00:25:19,150
+One is a Python instead of mad Lab.
+
+182
+00:25:19,310 --> 00:25:29,630
+And the other one is, instead of having A-A midterm exam, you know, there's a timed mid term, we're planning to have a take home midterm
+
+183
+00:25:29,860 --> 00:25:31,110
+this quarter, this
+
+184
+00:25:31,320 --> 00:25:33,430
+day. So I know
+
+185
+00:25:33,840 --> 00:25:39,790
+some people are just breathing sharply when I said, I don't know what that means, was that shock or happiness?
+
+186
+00:25:40,170 --> 00:25:42,150
+OK, don't worry. Mid Terms are fun.
+
+187
+00:25:42,270 --> 00:25:44,030
+You you love it.
+
+188
+00:25:45,620 --> 00:25:54,120
+All right, so that's it for the that's it for the logistical aspects.
+
+189
+00:25:54,360 --> 00:25:56,500
+Let me check. And so let me check.
+
+190
+00:25:56,600 --> 00:26:04,000
+there any questions? Oh, yeah. Go ahead.
+
+191
+00:26:14,900 --> 00:26:22,270
+Yeah, so that's such thing, uh, let's see, I think it's off it in spring, and one other person?
+
+192
+00:26:22,830 --> 00:26:34,370
+Oh, yes. And I teaching it, so someone else is teaching it in spring quarter, and, um, uh, I actually did not know it was going to be offered in winter.
+
+193
+00:26:35,560 --> 00:26:42,700
+Yeah, right, yeah. So, so I think great guy.
+
+194
+00:26:42,860 --> 00:26:48,960
+And teaching notes in the Sorry, you can never find the same, right?
+
+195
+00:26:49,200 --> 00:26:53,820
+Teaching it in spring, and I don't think is often in winter.
+
+196
+00:26:54,580 --> 00:27:00,000
+Cool, if that's good. Well, this one sections, we record it?
+
+197
+00:27:00,060 --> 00:27:17,250
+Yes, they will. Oh, and by the way, if if you wonder why I'm recording the I'm repeating the question, I know it feels weird, I'm recording for the microphone so that so that people watching the computer question, but both the lectures and the discussion sections will be will be recorded and put on the website.
+
+198
+00:27:17,770 --> 00:27:22,090
+Maybe the one thing we do does not record it and broadcast are the office hours.
+
+199
+00:27:22,410 --> 00:27:32,980
+Is that right? Yeah, oh, oh, but I think, uh, this year, um, we have a 60 hour honey on 60 office hours per week, right?
+
+200
+00:27:33,140 --> 00:27:38,140
+Yeah. So, so hopefully I just, again, we're constantly trying to improve the cause.
+
+201
+00:27:38,300 --> 00:27:42,140
+In previous years, one of the feedback we got was that the office hours are really crowded.
+
+202
+00:27:42,300 --> 00:27:48,260
+So so we have 60 60 h of worth about 60 office hours lost per week this euro That seems a lot.
+
+203
+00:27:48,280 --> 00:27:59,600
+So hopefully, if you need to track down, one of us, track down the tier to get hopefully they'll make it easier say it again.
+
+204
+00:28:00,120 --> 00:28:09,530
+Well, oh, well, let's just call things like, when horse D-B cover lectures.
+
+205
+00:28:09,950 --> 00:28:13,750
+We have a Yes. So we have four plans homeworks.
+
+206
+00:28:16,150 --> 00:28:33,590
+And if you go to the if you go to the course website, and click on the syllabus link, that has a calendar with when each home of assignment is gone, when op do so full homework and project proposal do a few weeks from now and in the final projects due at the end of the quarter.
+
+207
+00:28:33,790 --> 00:28:37,430
+But all the, all the exact days are listed on the course website.
+
+208
+00:28:37,770 --> 00:28:48,770
+Thank you. Ah, sure. Yes. Difference between this class in two, three, nine, a Um, let me think how to answer that.
+
+209
+00:28:48,930 --> 00:28:55,720
+Yes. Uh, so yeah, I know I was debating early this morning how to answer that business advance that a few times.
+
+210
+00:28:55,880 --> 00:29:05,830
+Um. So I think that what has happened at Stanford is that the volume of demand for machine learning education is just right skyrocketing.
+
+211
+00:29:05,990 --> 00:29:08,510
+Because I think everyone sees everyone wants to learn this stuff.
+
+212
+00:29:08,670 --> 00:29:16,930
+And so, uh, so we've been, so the Computer Science Department has been trying to drill the number of machine learning offerings.
+
+213
+00:29:18,560 --> 00:29:24,780
+We actually kept in Roman to CST between a relatively low number at a hundred students.
+
+214
+00:29:24,940 --> 00:29:31,370
+So I actually don't want to encourage too many of you to sign up, because I think we might be hitting the enrollment cap already.
+
+215
+00:29:31,530 --> 00:29:36,650
+So, so please don't all sign up for cs CS9, because, um, we to G9.
+
+216
+00:29:36,810 --> 00:29:50,000
+Eight does not have the capacity this quarter, but since between nine a is a much less mathematical and much more applied, a relatively more apply version of machine learning.
+
+217
+00:29:50,000 --> 00:29:54,340
+And so I guess I'm teaching sisters to nine ACS 02:30.
+
+218
+00:29:54,500 --> 00:29:59,030
+Ncs29 this quarter. Of the three, CS29 is the most mathematical.
+
+219
+00:29:59,790 --> 00:30:04,410
+It is a little bit less applied than 6298, which is a more apply machine learning.
+
+220
+00:30:04,570 --> 00:30:11,770
+And since 02:30, which is deep my vices students, is that 629, 629 A.
+
+221
+00:30:11,770 --> 00:30:16,410
+Let me write this down. I think I'm right.
+
+222
+00:30:21,610 --> 00:30:23,310
+So 629 A
+
+223
+00:30:23,330 --> 00:30:25,030
+is taught in a flip classroom
+
+224
+00:30:25,390 --> 00:30:37,340
+format, which means that students taking it will mainly watch videos on the course air website and do a lot of programming exercises, and then meet for a weekly discussion sections.
+
+225
+00:30:37,620 --> 00:30:40,820
+But it's a smaller class with cat and Romans.
+
+226
+00:30:41,110 --> 00:30:42,230
+I-I would advise
+
+227
+00:30:42,610 --> 00:30:49,430
+you that, um, if you feel ready for a CSC unit and cs 02:30 to do those, but
+
+228
+00:30:49,710 --> 00:30:57,590
+cs29, you know, because of the math we do, this is a, this is a very heavy workload and pretty challenging class.
+
+229
+00:30:57,750 --> 00:31:10,540
+And so if you're not sure if you're ready for c29 62 nine A, maybe a good thing to to to take 1st and then CS29CS Tuesday nine.
+
+230
+00:31:10,700 --> 00:31:14,440
+A cover broader range of machine learning algorithms.
+
+231
+00:31:14,670 --> 00:31:24,280
+And C-S 02:30 is more focused on deep learning averans specifically, which is a much narrow set of algorithms, but it is one of the hottest areas deep learning.
+
+232
+00:31:24,640 --> 00:31:33,500
+There is not that much overlap in content between the three classes, so if you actually take all three, you learn relatively different things from all of them.
+
+233
+00:31:33,660 --> 00:31:44,110
+In the past, we've had students simultaneously take 02:29 and 02:29 A, and there is a little bit of all that they do kind of cover related algorithms, but from different points of view.
+
+234
+00:31:44,270 --> 00:31:47,790
+So some people actually take multiple of these classes at the same time.
+
+235
+00:31:48,630 --> 00:31:56,850
+But Susan I-A is more polite, a bit more, you know, practical, know how, hands on and so on, and and much less mathematical.
+
+236
+00:31:58,210 --> 00:32:03,650
+And CS 02:30 is also less mathematical, more about coming getting to work.
+
+237
+00:32:03,810 --> 00:32:12,480
+Where seas to do 90, we do much more mathematical derivations in questions.
+
+238
+00:32:14,400 --> 00:32:27,500
+Yes, so, uh, why don't you say what?
+
+239
+00:32:27,660 --> 00:32:31,710
+I would generally prefer students not do that in the inches of time.
+
+240
+00:32:31,870 --> 00:32:33,210
+But what? What do you want?
+
+241
+00:32:37,090 --> 00:32:39,070
+Oh, I see the show. Go for it.
+
+242
+00:32:39,130 --> 00:32:43,450
+Who is in relative to? Oh, not that many of you.
+
+243
+00:32:43,610 --> 00:32:47,150
+Interesting. Oh, that's actually interesting. Cool.
+
+244
+00:32:47,490 --> 00:32:52,310
+Thank you. Yeah, I just didn't want to set up presidents of students using this as a foreign to run survey.
+
+245
+00:32:52,330 --> 00:32:55,190
+So that was, that was, that was an interesting question.
+
+246
+00:32:55,250 --> 00:33:08,700
+So thank you. Um, cool. All right, by the way, I think you know, just one thing about Stanford is the AI world, machine learning world.
+
+247
+00:33:08,860 --> 00:33:11,280
+Ai's bigger than machine learning. The machine is bigger than deep.
+
+248
+00:33:12,110 --> 00:33:19,400
+One of the great things about being a Stanford student is you can, and I think should, take multiple classes, right?
+
+249
+00:33:19,560 --> 00:33:31,980
+I think that your systems, you know, and has for many years, been recorded the machine learning world as stand But even beyond CS29, is worth your while to take multiple classes and gain multiple perspective.
+
+250
+00:33:32,140 --> 00:33:41,150
+So so if you want to be really effective, you know, off the address and stand there, you do want to be an expert in machine learning, you do want to be an expert and deep learning.
+
+251
+00:33:41,450 --> 00:33:43,850
+And you probably want to know, probably in statistics.
+
+252
+00:33:44,010 --> 00:33:45,890
+Maybe you want to know a bit of complex optimization.
+
+253
+00:33:46,050 --> 00:33:51,850
+And maybe want to know a bit more about enforcement learning, know a little bit about planning, know a bit about lots of things.
+
+254
+00:33:52,010 --> 00:33:56,710
+So, so I-I actually encourage you to to take multiple classes.
+
+255
+00:33:56,870 --> 00:34:01,250
+I guess cool. All right, good.
+
+256
+00:34:01,330 --> 00:34:08,870
+Um. If there are no more questions, let's go on to talk a bit about machine learning.
+
+257
+00:34:11,990 --> 00:34:35,700
+So, all right, so remainder of the sports, what I'd like to do is, um, give a quick overview of the major areas of machine learning, and also, and also give you a sort of overview of the things you learn in the next weeks.
+
+258
+00:34:35,860 --> 00:34:38,860
+So, you know, what is machine learning?
+
+259
+00:34:39,160 --> 00:34:42,340
+It seems to be everywhere these days, and it's useful for so many places.
+
+260
+00:34:42,500 --> 00:34:52,540
+And, and I think that, um, uh, and and, you know, and, and I uh, and I-I feel like, uh, by the way, just to share, you my personal buyers, right?
+
+261
+00:34:52,720 --> 00:34:57,170
+You read the news about these people making so much money building learning algorithms.
+
+262
+00:34:57,330 --> 00:35:00,130
+I think that's great. I hope, I hope all of you go make all the money.
+
+263
+00:35:00,290 --> 00:35:04,390
+But the thing I find even more exciting is the meaningful work we could do.
+
+264
+00:35:04,670 --> 00:35:14,210
+I think that, you know, I think that every time does a major technological disruption, which there is now through machine learning, it gives us an opportunity to remake large parts of the world.
+
+265
+00:35:14,510 --> 00:35:23,280
+And if we behave ethically in a peaceful way, and use these superpowers of machine learning to do things that helps peoples lives, maybe we could.
+
+266
+00:35:24,220 --> 00:35:26,480
+Maybe you can improve the healthcare system.
+
+267
+00:35:26,640 --> 00:35:28,710
+Maybe you can improve give every child
+
+268
+00:35:29,040 --> 00:35:32,310
+a personalized tutor. Maybe we can make our democracy run
+
+269
+00:35:32,490 --> 00:35:34,010
+better rather than make it run worse.
+
+270
+00:35:34,170 --> 00:35:35,630
+But I think that
+
+271
+00:35:36,030 --> 00:35:41,630
+the meaning I find in machine learning is that there are so many people that are so eager for us to go
+
+272
+00:35:41,790 --> 00:35:52,750
+in and help them with these tools, that if you become good at these tools, it gives you an opportunity to really, we make some piece, some meaningful piece of the world,
+
+273
+00:35:52,890 --> 00:35:57,230
+hopefully in a way that helps other people and makes the world, kind of makes the world a better place.
+
+274
+00:35:57,290 --> 00:36:03,770
+is very cliche and so value, but I think, you know, with these sues, you actually have the power to do that.
+
+275
+00:36:03,930 --> 00:36:05,610
+And if you go make a ton of money, that's great too.
+
+276
+00:36:05,630 --> 00:36:08,810
+But I find much greater meaning of the work we could do.
+
+277
+00:36:08,970 --> 00:36:11,530
+Um, it gives us a unique option.
+
+278
+00:36:11,690 --> 00:36:17,090
+Needs to do these things. But despite all the excitement of machine learning, what is machine learning?
+
+279
+00:36:17,250 --> 00:36:21,650
+So let me give you a couple definitions of machine learning.
+
+280
+00:36:22,250 --> 00:36:29,600
+Arthur Samuel, whose thing to fame was building a checkers playing program defined as follows the fields.
+
+281
+00:36:29,620 --> 00:36:35,980
+I think it's computer believe learn about being specific program and, uh, you know, each thing.
+
+282
+00:36:35,980 --> 00:36:48,580
+When when Arthur Samuel, many, many decades ago, wrote a checkers playing program, or the debate of the day was, can a computer ever do something that wasn't explicitly told to do?
+
+283
+00:36:48,880 --> 00:37:02,360
+And Arthur Samuel wrote checker screen program that, through self play, learned whether the patterns of checkerboard that are more likely to lead to win versus more likely to lead to loss.
+
+284
+00:37:02,670 --> 00:37:09,150
+And learn to be even better than Arthur Samuel, the author, himself, at playing checkers.
+
+285
+00:37:09,310 --> 00:37:18,740
+So back then, there wasn't, as a remarkable result of the computer program, you know, that could write a piece of software to do something that the computer program himself could not do, right?
+
+286
+00:37:18,900 --> 00:37:27,970
+Because this program became better at also Samuel at uh uh at at at the possibly Checkers.
+
+287
+00:37:28,410 --> 00:37:37,290
+And I think today, we, um are used to computers or machine learning our rooms outperforming humans on so many tasks.
+
+288
+00:37:38,050 --> 00:37:48,900
+But it turns out that when you choose a narrow task, like speech recognition, on a certain type of task, you can maybe surpass human love of performance if you choose a narrow toss, like playing the game of goal.
+
+289
+00:37:49,200 --> 00:37:59,380
+Then, by throwing really tons of computers power at it and self play, you can have a computer, you know, become very good at these narrow tasks.
+
+290
+00:37:59,540 --> 00:38:04,280
+But this was maybe one of the 1st such examples in history of computing.
+
+291
+00:38:04,500 --> 00:38:12,250
+Um, uh. And I think this is the one of the most widely cited definitions, right?
+
+292
+00:38:12,410 --> 00:38:15,310
+Just computers' ability to learn about being explicitly programmed.
+
+293
+00:38:16,430 --> 00:38:22,940
+My friend Tom Mitchell, in his textbook, to find this as a well post learning problem.
+
+294
+00:38:24,140 --> 00:38:31,340
+Programs set to learn from experience, e respector toss t on some performs, measure pives for volunteer as measured by p improves experience.
+
+295
+00:38:31,780 --> 00:38:38,440
+And I asked Tom this. I asked Tom if he wrote this definition, just because he wanted it to rhyme.
+
+296
+00:38:38,720 --> 00:38:41,440
+And he he did not say Yes.
+
+297
+00:38:41,600 --> 00:38:54,620
+But I-I don't know. But in this definition, the experience EVE, for the case of playing checkers, the experience E would be the experience of having a checklist program play tons of games, games itself.
+
+298
+00:38:54,900 --> 00:39:00,140
+So computers lots of patients, and sit there for days playing games or checkers or games itself.
+
+299
+00:39:00,400 --> 00:39:03,940
+So that's experience E The tasks, T is the tasks of playing checkers.
+
+300
+00:39:04,100 --> 00:39:11,280
+The performance measure P maybe was the chance of this program winning the next game of checkers it plays against the next.
+
+301
+00:39:11,530 --> 00:39:16,490
+So so we say that this is a well post learning problem learning to pay checkers.
+
+302
+00:39:17,090 --> 00:39:25,630
+Now, within this set of ideas of machine learning, there are many different tools we use in machine learning.
+
+303
+00:39:26,050 --> 00:39:31,150
+And so in the next ten weeks, you learn about a variety of these different tools.
+
+304
+00:39:31,430 --> 00:39:36,030
+And so the 1st of them, and the most widely used one, is supervised learning.
+
+305
+00:39:37,180 --> 00:39:39,900
+Let's see, I want to switch to the whiteboard.
+
+306
+00:39:40,080 --> 00:39:43,100
+Do you guys know how do I raise the screen?
+
+307
+00:39:43,330 --> 00:39:47,970
+Oh, I thought, okay. All right.
+
+308
+00:39:47,990 --> 00:40:12,390
+Cool. So what I want to do today is really go over some of the major categories of machine learning tools and and so that what you learn in the next, um, by the end of this quarter.
+
+309
+00:40:12,830 --> 00:40:22,890
+So the most widely used machine learning to is today is supervised.
+
+310
+00:40:22,900 --> 00:40:28,000
+Actually, let me check how How many of you know what supervisor earning is like?
+
+311
+00:40:28,160 --> 00:40:29,840
+Two thirds. Half of you. Maybe.
+
+312
+00:40:30,000 --> 00:40:31,900
+Cool. Let me just briefly define it.
+
+313
+00:40:32,180 --> 00:40:41,990
+Here's one example. Let's say you have a database of housing prices, and so I'm going to plot your dataset where on the horizontal axis,
+
+314
+00:40:42,560 --> 00:40:46,070
+I want to plot the size of the hulls in square feet,
+
+315
+00:40:47,280 --> 00:40:51,720
+and the vertive axis will plot the price of the house, right?
+
+316
+00:40:51,980 --> 00:40:55,070
+And maybe a data set.
+
+317
+00:40:58,850 --> 00:41:04,810
+And so horizontal axis, I guess we call this X, and virtual axis will call that.
+
+318
+00:41:04,970 --> 00:41:13,390
+Why? So the supervised learning problem is given the day to set like this to find a relationship mapping from X to y.
+
+319
+00:41:13,590 --> 00:41:25,800
+And so, um, e.g., let's see, let's say, let's say you have a let's say you are fortunate enough to own a house in Colorado also, and you're trying to sell it, and you want to know how to price the holes.
+
+320
+00:41:25,960 --> 00:41:32,510
+So maybe your holes has a size, you know, of that amount on the horizontal axis, I don't know.
+
+321
+00:41:32,670 --> 00:41:36,090
+This is a function square fee, 1000 sq ft.
+
+322
+00:41:36,210 --> 00:41:40,070
+15 hundred square feet. So your house is twelve, 50 sq ft.
+
+323
+00:41:40,230 --> 00:41:44,090
+Right? And you want to know, you know, how do you price this hole?
+
+324
+00:41:44,520 --> 00:41:51,380
+So given the dataset, one thing you can do is um for the straight line to it, right?
+
+325
+00:41:51,680 --> 00:41:58,570
+and then you could estimate or predict the price to be whatever value you read off on the vertical axis.
+
+326
+00:41:58,690 --> 00:42:12,780
+So in supervised learning, you are given a data set with IMPOSEX and labels, why, and your goal is to learn a mapping from X to y.
+
+327
+00:42:13,120 --> 00:42:32,480
+Right now, for the straight line to data is maybe the simplest possible, maybe the simplest possible learning algorithm, maybe one of the simplest learning algorithms, given they said like, there's there are many possible ways to learn the mapping, to learn the function, mapping from the input size to the estimated price.
+
+328
+00:42:32,640 --> 00:42:36,000
+And so maybe you want a physical dralic function instead.
+
+329
+00:42:36,020 --> 00:42:38,240
+Maybe that actually hesitated a little bit better.
+
+330
+00:42:38,400 --> 00:42:40,000
+And so how do you choose among different models?
+
+331
+00:42:40,020 --> 00:42:43,080
+Will be either automatically or manual intervention?
+
+332
+00:42:43,240 --> 00:42:46,980
+Will be will be something will spend a lot of time talking about.
+
+333
+00:42:47,420 --> 00:43:05,230
+Now, to give a little bit more, to define a few more things, this particular example is a problem called a regression problem, and deter regression refers to that the value why you're trying to predict is continuous, right?
+
+334
+00:43:05,670 --> 00:43:09,900
+In contrast, here is a he has a different type of problem.
+
+335
+00:43:10,100 --> 00:43:25,180
+Um So a problem that some of my friends were working on, and I'll simplify it, was, was a health care problem where they were looking at breast cancer, breast tumors, and trying to decide of a tumor is benign or malignant.
+
+336
+00:43:25,500 --> 00:43:36,920
+So tumor, you knows, of a lump in a woman's breast is can be malign or cancerous or benign, meaning roughly does not that harmful.
+
+337
+00:43:37,000 --> 00:43:50,710
+And so if on the horizontal axis, you plot the size of a tumor, and on the vertical axis you plot is it malignant or not?
+
+338
+00:43:50,870 --> 00:43:56,300
+Some malignant means harmful, right? And some tumors are harmful someone or not.
+
+339
+00:43:56,460 --> 00:44:01,960
+And so whether this malignant or not takes only two values, one or zero.
+
+340
+00:44:04,170 --> 00:44:13,410
+And so you may have a dataset um like that.
+
+341
+00:44:15,420 --> 00:44:27,170
+And given this, can you learn a mapping from X-Y, so that a new patient walks into your office, walks in the doctor's office, and the tumor sizes, you'll see this.
+
+342
+00:44:27,330 --> 00:44:37,580
+Can you learn the over and figure out from this data that you know, is probably well, based on this dataset, looks like there's a, there's a high chance that that tumor is malignant.
+
+343
+00:44:39,260 --> 00:44:51,790
+So, oh, so this is an example of a classification problem, and the term classification refers to that.
+
+344
+00:44:51,950 --> 00:44:55,010
+Why? Here takes on a discreet number of variables.
+
+345
+00:44:55,270 --> 00:44:57,930
+So for a regression problem, why is a real number?
+
+346
+00:44:58,300 --> 00:45:02,180
+I guess technically, prices can be rounded off to the nearest dollar instead.
+
+347
+00:45:02,340 --> 00:45:10,530
+So prices aren't really low numbers, you know, because you probably not price of hows that like PI times 1 million or whatever.
+
+348
+00:45:10,650 --> 00:45:13,910
+But for all practical purposes, prices are continuous.
+
+349
+00:45:13,930 --> 00:45:22,090
+So we call them housing price prediction to be a regression problem, whereas, if you have two values, the possible output, zero one, call that class problem.
+
+350
+00:45:22,370 --> 00:45:25,030
+If you have cave the street output.
+
+351
+00:45:25,190 --> 00:45:31,120
+So its a tumor, can be malignants, or if there are five types of cancer, right?
+
+352
+00:45:31,140 --> 00:45:34,950
+So you have one of five possible outputs, then that's also a classification problem.
+
+353
+00:45:35,110 --> 00:45:36,970
+At the output is the street.
+
+354
+00:45:38,050 --> 00:45:49,370
+Now, um, I want to a different way to visualize this data set, which is, um, let me draw a line on top, and I'm just gonna, you know, map
+
+355
+00:45:49,690 --> 00:45:51,430
+all this data on horizontal access,
+
+356
+00:45:51,470 --> 00:45:58,150
+upwit, onto a line um. But I'm going to use a
+
+357
+00:45:58,410 --> 00:46:10,390
+symbol all to the notes. I hope what idea was clear.
+
+358
+00:46:10,550 --> 00:46:17,170
+So I took the two sets of examples, the positive, negative examples, positive examples, this one, negative examples of zero.
+
+359
+00:46:17,330 --> 00:46:22,310
+And I took all of these examples and kind of pushed them up onto a straight line.
+
+360
+00:46:22,720 --> 00:46:29,660
+And I use two symbols. I use oaths to denote negative examples, and I use crosses to denote positive example.
+
+361
+00:46:30,000 --> 00:46:42,440
+So this is just a different way of visualizing the same data, but drawing it on the line, and using two symbols to denote the two discreet values are on one right?
+
+362
+00:46:42,660 --> 00:46:49,890
+So it turns out that in both of these examples, the input X was one dimensional.
+
+363
+00:46:50,050 --> 00:46:51,390
+It was a single role number.
+
+364
+00:46:51,510 --> 00:46:57,270
+For most of the machine learning application to work with, the input X will be multi dimensional.
+
+365
+00:46:57,430 --> 00:47:01,250
+You won't be given just one number and also predict another number.
+
+366
+00:47:01,490 --> 00:47:06,950
+Instead, you often be given multiple features or multiple numbers to predict another number.
+
+367
+00:47:07,110 --> 00:47:44,430
+So, e.g., instead of just using tumor size to predict to estimate malignancy of malignant versus benign tumors um, you may instead have two features where one is tumor size, the 2nd is age the patient, and be given the dataset, right?
+
+368
+00:47:44,730 --> 00:47:49,330
+And be given the dataset that looks like that, right where.
+
+369
+00:47:49,490 --> 00:48:11,040
+Now your task is given two input features, so access tumor, size and age, you look at two dimensional vector, and your toss is given these two input features to predict whether given tumor is malig So the new patient walks in the doctor's office and the tumor sizes here and the ages here.
+
+370
+00:48:11,960 --> 00:48:17,850
+So that point there, then hopefully you can conclude that, you know, this patient's tube must probably benign, right?
+
+371
+00:48:18,010 --> 00:48:35,740
+Responding, oh, the negative example. And so one thing, one thing you learn next week, is a learning algorithm that can for the straight line to the data as follows, kind of like that, to separate out the positive, negative examples, separate out the holes and the process.
+
+372
+00:48:35,900 --> 00:48:41,510
+And so next week you learn about the logistic regression algorithm, which, um, which can do that.
+
+373
+00:48:41,730 --> 00:48:49,470
+Okay, so, um, one of the most interesting things you learn about is, let's see.
+
+374
+00:48:49,630 --> 00:48:53,870
+So in this example, I drew this set with two input features.
+
+375
+00:48:54,030 --> 00:48:59,830
+Um, when? So I have friends that actually worked on the breast cancer prediction problem.
+
+376
+00:48:59,990 --> 00:49:06,630
+And in practice, you usually have a lot more than one or two features, and usually you have so many features you can't part them in the board, right?
+
+377
+00:49:06,690 --> 00:49:14,880
+And so for an actual breast cancer prediction problem, my friends are working on this using many other features, such as, don't worry about what these needs.
+
+378
+00:49:15,040 --> 00:49:33,360
+I mean, you have to come thickness, your uniformity of some size, uniformity of so shape, rates, um adhesion, how will the cells stick together?
+
+379
+00:49:33,600 --> 00:49:43,140
+Don't worry about what these means, but if you're actually doing this in a in an actual medical application, there's a good chance that you'll be using a lot more features than just two.
+
+380
+00:49:43,320 --> 00:49:45,460
+And this means that you actually can't plot this data.
+
+381
+00:49:45,730 --> 00:49:49,970
+It's too high dimensional. You can't plot things higher than three dimensional, maybe four dimensional or something.
+
+382
+00:49:50,130 --> 00:49:54,170
+Right? So we have a lot of features actually difficult plot this data.
+
+383
+00:49:54,330 --> 00:49:56,830
+I'll come back to this in a 2nd in learning theory.
+
+384
+00:49:57,010 --> 00:50:11,380
+Um. And one of the things you learn about so as we develop learning algorithms, you learn how to built regression algorithms or classification algorithms that can deal with these relatively large number of features.
+
+385
+00:50:11,730 --> 00:50:30,350
+One of the most fascinating results you learn is that, um, you also learn about an album called The Support Vector Machine, which users not one or two or three or ten or a hundred or a million input features, but uses an infinite number of input features, right?
+
+386
+00:50:30,510 --> 00:50:37,430
+And so so just because if, in this example, the state of a patient will represent as one number, tumor size,
+
+387
+00:50:37,840 --> 00:50:39,070
+and this example, yet
+
+388
+00:50:39,340 --> 00:50:44,120
+two features, so the state of a patient will represent, using two numbers, the tumor size in the age.
+
+389
+00:50:44,520 --> 00:50:47,440
+If you use this list of features, maybe a patient that are represented with five
+
+390
+00:50:47,680 --> 00:50:48,870
+or six numbers.
+
+391
+00:50:49,200 --> 00:50:52,910
+But there's an hour called the Support VAX machine that allows you
+
+392
+00:50:53,120 --> 00:51:00,170
+to use an infinite dimensional vector to represent a
+
+393
+00:51:00,530 --> 00:51:03,970
+patient. And, um, how do you deal with that?
+
+394
+00:51:04,130 --> 00:51:07,130
+And how can a computer even store an infinite dimensional victim?
+
+395
+00:51:07,290 --> 00:51:07,610
+I mean, you know,
+
+396
+00:51:08,430 --> 00:51:17,100
+computer memory, you can store one role number, two role numbers, but you can't slow an infinite number of role numbers computer without running on the memory or process speed or whatever.
+
+397
+00:51:17,260 --> 00:51:18,960
+So how do you do that?
+
+398
+00:51:19,180 --> 00:51:25,050
+So we talk about support. Vector machines are specifically the technical method called kernels.
+
+399
+00:51:25,210 --> 00:51:42,340
+You learn how to build learning algorithms that work with So there have infinitely long this of features, infinitely long this feature, for for which you can imagine that if you have an infinitely long list of numbers to representation, that might give you a lot of information about that patient.
+
+400
+00:51:42,500 --> 00:51:48,130
+And so that is one of the relatively effective learning algorithms of some problems.
+
+401
+00:51:50,900 --> 00:52:05,350
+So that supervised learning. And, you know, let me just play a video show you a fun, slightly older example of supervised learning, and previous sense of what this means.
+
+402
+00:52:06,150 --> 00:52:17,530
+But at the heart of supervised learning is the idea of that during training, you are given inputs X together with the labels Y, and you're giving both at the same time.
+
+403
+00:52:17,970 --> 00:52:27,410
+And the job of your learning algorithm is to find a mapping so that give it a new x, you can nap it to the most appropriate I'll put y.
+
+404
+00:52:27,810 --> 00:52:36,470
+So this is a very old video made by Dean Pomelo, known for a long time as well, on using supervised learning for autonomous driving.
+
+405
+00:52:36,630 --> 00:52:41,110
+This is not stay the art for Thomas Driving anymore, but it it actually does remarkably well.
+
+406
+00:52:41,270 --> 00:52:46,370
+Oh, and um, as you uh, you hear a few technical terms like back propagation.
+
+407
+00:52:46,590 --> 00:52:53,640
+You learn all those techniques in disclose, and by the end of the class, you really built learning over much more effective than what you see here.
+
+408
+00:52:53,640 --> 00:53:08,870
+Let's see this. Could you turn up the you have that I see?
+
+409
+00:53:13,390 --> 00:53:15,190
+All right, I'll now read this.
+
+410
+00:53:16,690 --> 00:53:24,380
+So I've been using an artificial neural network to drive this vehicle that was built at Congie Melding University many years ago.
+
+411
+00:53:24,720 --> 00:53:35,890
+And what happens is, during training, it watches the human drive the vehicle, and I think ten times a 2nd it digitizes the image in front of the vehicle.
+
+412
+00:53:36,260 --> 00:53:41,040
+And so that's the picture taken by a front facing camera.
+
+413
+00:53:41,800 --> 00:53:54,940
+And what it does is, in order to collect label data the car while the human is driving, it records both the image, such as the scene here, as well as the steering direction that was chosen by human.
+
+414
+00:53:54,940 --> 00:53:59,100
+So at the bottom here is the image, turn to the gray scale and lower rise.
+
+415
+00:53:59,400 --> 00:54:03,230
+And on top, let me pause this for a 2nd.
+
+416
+00:54:03,410 --> 00:54:06,970
+Um. This is the driver direction.
+
+417
+00:54:07,130 --> 00:54:09,850
+The phone's kind of blurry, but this text says driver direction.
+
+418
+00:54:10,010 --> 00:54:15,640
+So this is the why label, the label why that the human driver chose.
+
+419
+00:54:15,880 --> 00:54:23,190
+And so the position of this white bar of this white blob shows how the human is choosing to see the car.
+
+420
+00:54:23,350 --> 00:54:27,130
+So in this image, the white blob is a little bit to the left of center.
+
+421
+00:54:27,290 --> 00:54:29,750
+So the human is, you know, steering just a little bit to the left.
+
+422
+00:54:30,830 --> 00:54:35,650
+This 2nd line here is the outputs of the neural network.
+
+423
+00:54:35,810 --> 00:54:42,080
+And initially the neural network doesn't know how to drive, and so it's just outputting this white smear everywhere.
+
+424
+00:54:42,240 --> 00:54:42,880
+He's saying, oh, I don't know.
+
+425
+00:54:42,980 --> 00:54:44,680
+Do I drive that? Right center?
+
+426
+00:54:44,840 --> 00:54:47,650
+I is going to all putting this gray blur everywhere.
+
+427
+00:54:48,410 --> 00:54:58,110
+And as the algorithm learns, using the back propagation learning algorithm, or Great in Descent, we should learn about, you actually learn about Great in Descent this Wednesday.
+
+428
+00:54:58,490 --> 00:55:15,020
+Um, you see that the new network's output becomes less and less of this white smear, this white bler, but starts to become sharper and starts to mimic more accurately the humans selected driving direction.
+
+429
+00:55:17,100 --> 00:55:30,440
+So this, um, this example of supervised learning, because the human driver demonstrates inputs X and outputs y, uh, namely, if you see this in front of the car, still like that.
+
+430
+00:55:30,600 --> 00:55:42,660
+So that's X and y, and after the learning album has learned, you can then, uh, well, he pushes the button, takes a hand off the ceiling here, um.
+
+431
+00:55:43,100 --> 00:55:47,430
+And then it's using this your network to drive itself,
+
+432
+00:55:47,500 --> 00:55:58,230
+digitizing the image in front of the road, taking this image and passing it through the learning algorithm, through the train neuron network, I think the neural networks, select the steering direction,
+
+433
+00:55:59,170 --> 00:56:01,630
+and then, using a low motor to
+
+434
+00:56:01,830 --> 00:56:08,150
+turn the wheel. Um, this is slightly more advanced version, which has trained two separate models, one for, I think,
+
+435
+00:56:08,320 --> 00:56:10,900
+a two lane road, one for a four lane road.
+
+436
+00:56:11,160 --> 00:56:19,200
+So that's so the 2nd and 3rd lines, this is for a two main road, just a full lane road.
+
+437
+00:56:19,610 --> 00:56:29,370
+And the arbitrator is is another outroom that tries to decide whether the two lane or the following role model is the more appropriate one for a particular given situation.
+
+438
+00:56:29,690 --> 00:56:35,290
+And so, as all been this joint, excuse me, one name road, or two main road.
+
+439
+00:56:35,450 --> 00:56:40,270
+So it says, driving from a one main road here toward an intersection.
+
+440
+00:56:52,700 --> 00:57:03,420
+The the algorithm realizes issues switch over from, um, I think, I forget, I think, the one lay near network, to the to the two lanear network for one season.
+
+441
+00:57:03,660 --> 00:57:20,550
+Right? Okay, oh, all right, fine.
+
+442
+00:57:20,710 --> 00:57:24,450
+We just see the final dramatic moment as searching for a one day road to two.
+
+443
+00:57:37,960 --> 00:57:47,230
+Alright? And I think, you know, so this is just using sufis Earning to take his input western front of your car to decide on this during direction.
+
+444
+00:57:47,250 --> 00:58:01,010
+This is not so the art for how self driving cars are built today, but, you know, it could do some things in some limited contexts, and I think in several weeks, you actually be able to build something that is more sophisticated.
+
+445
+00:58:03,910 --> 00:58:14,430
+So after Supervise Learning, we will in this class to spend a bit of time talking about machine learning strategy.
+
+446
+00:58:14,590 --> 00:58:19,310
+So I think on the class mills, we annotate this as a learning theory.
+
+447
+00:58:19,470 --> 00:58:25,090
+But what that means is I want to give you the two to God and apply learning algorithms effectively.
+
+448
+00:58:25,210 --> 00:58:39,950
+And I think up fortunate to have, you know, to know a lot of, uh, I think that I've been fortunate to have, you know, over the years, constantly visited lots of great tech companies.
+
+449
+00:58:40,110 --> 00:58:43,870
+Are more than ones like that that I've been publicly associated with, right?
+
+450
+00:58:44,030 --> 00:58:45,840
+But often just to help friends out.
+
+451
+00:58:46,000 --> 00:58:50,940
+I visit various tech companies of the sort whose products, I'm sure installing your cell phone.
+
+452
+00:58:50,990 --> 00:58:57,190
+But I often visit check companies and, you know, talk to the machine learning teams and see what they're doing and see if I can help them out.
+
+453
+00:58:57,490 --> 00:59:07,790
+And what I see is that there's a huge difference in the effectiveness of how two different teams could apply the exact same learning, right?
+
+454
+00:59:07,790 --> 00:59:25,540
+And I think that's um. What I've seen, sadly, is that sometimes there will be a team, even in some of the best tech companies right the the the the ev Ai companies, right in in multiple of them, where you go talk to team, and they'll tell you about something they've been working on for six months.
+
+455
+00:59:25,580 --> 00:59:32,410
+And then you can quickly take a look at the data and and here that they're not, the album isn't quite working.
+
+456
+00:59:32,570 --> 00:59:40,010
+And sometimes you could look at what they're doing and go, yeah, you know, I could have told you six months ago that this approach is never going to work, right?
+
+457
+00:59:40,410 --> 00:59:56,240
+And what I find is that the most skilled machine learning practition is very strategic, by which I mean that you're still at deciding when you work on a machine learning project, you you have a lot of disease to me, do you collect more data?
+
+458
+00:59:56,400 --> 00:59:58,220
+Do you try different learning algorithm?
+
+459
+00:59:58,300 --> 00:59:59,750
+Do you rent faster GPS?
+
+460
+01:00:00,080 --> 01:00:02,080
+To train your learning algorithm for longer, or
+
+461
+01:00:02,240 --> 01:00:04,520
+if you collect more data, what type of data do you collect?
+
+462
+01:00:04,680 --> 01:00:05,590
+Or for all of these
+
+463
+01:00:05,960 --> 01:00:08,870
+architecture choices using new networks or vest machines, just aggression,
+
+464
+01:00:09,280 --> 01:00:10,920
+which one do you pick? Um.
+
+465
+01:00:11,080 --> 01:00:16,440
+But there are a lot of decisions you need to make when building these learning algorithms.
+
+466
+01:00:16,600 --> 01:00:19,550
+So one thing that's quite unique to the way we
+
+467
+01:00:19,820 --> 01:00:23,630
+teach is we want to help you become more systematic
+
+468
+01:00:23,980 --> 01:00:34,280
+in driving machine learning, as a as a systematic engineering discipline, so that when one day you are working on a machine learning project, you can efficiently figure out what to do next.
+
+469
+01:00:34,920 --> 01:00:41,450
+And I sometimes make an analogy to how to to software engineering.
+
+470
+01:00:42,050 --> 01:00:53,030
+You know, many years ago, I had a friend that would debug code by compiling it, and then this friend would look all these syntax errors.
+
+471
+01:00:53,250 --> 01:00:55,710
+Great that, you know, sepulses can power outputs.
+
+472
+01:00:55,970 --> 01:01:01,830
+And they thought that the best way to eliminate the errors is to delete all the lines of code with syntax errors.
+
+473
+01:01:01,990 --> 01:01:03,210
+And that was their 1st seriously.
+
+474
+01:01:03,390 --> 01:01:05,210
+So that did not go well, right?
+
+475
+01:01:06,420 --> 01:01:09,020
+Took me a while to persuade them to start doing that.
+
+476
+01:01:09,020 --> 01:01:16,120
+But, but, but, so it turns out that when you run a learning algorithm, you know, it almost never works the 1st time.
+
+477
+01:01:16,540 --> 01:01:27,640
+Is this just life? And the way you go about debugging the learning algorithm, we have a huge impact on your efficiency, on on how quickly you can build effective learning systems.
+
+478
+01:01:27,800 --> 01:01:43,240
+And I think until now, too much of the of this process, of making your learning urbans work well, has been a black magic kind of process, where, you know, as work on this for decades, so when you run something, you don't know why it's not working, or, hey, what are I doing?
+
+479
+01:01:43,500 --> 01:01:46,860
+Oh yeah, I'll do that. And then, because he's so experienced, it works.
+
+480
+01:01:47,020 --> 01:01:57,990
+But I think what we're trying to do with the discipline machine learning is to evolved from a black magic, tribal, knowledge, experience based thing to a systematic engineering process.
+
+481
+01:01:58,330 --> 01:02:09,380
+And so later the squatter, as you talk about machine learning strategy, you talk about learning theory, you try to systematically give you tools on how to go about strategizing.
+
+482
+01:02:09,940 --> 01:02:17,580
+So it can be very efficient in how you how you yourself, or how you can lead a team to build an effective learning system.
+
+483
+01:02:17,740 --> 01:02:26,880
+Because I-I don't want you to be one of those people that, you know, waste six months on some direction that maybe could have relatively quickly figured out was not promising.
+
+484
+01:02:27,040 --> 01:02:31,930
+Well, maybe one loss analogy. If you If you're used to optimizing cold, right?
+
+485
+01:02:31,990 --> 01:02:35,350
+Making cold run faster, not nearly than that.
+
+486
+01:02:36,910 --> 01:02:42,310
+Less experience, Software engineers will just dive in and optimize the code to try to make it run faster.
+
+487
+01:02:42,530 --> 01:02:45,470
+Let's take the sea plus plus and cold in assembly or something.
+
+488
+01:02:45,730 --> 01:03:00,340
+But more experienced people will run their profile to try to figure out what part of the record is actually the Bible net, and then just focus on So one of the things hope to do this quarter is convey to you some of these more systematic engineering principles.
+
+489
+01:03:00,770 --> 01:03:03,350
+Right? And, yeah, oh, and it actually very interesting.
+
+490
+01:03:03,530 --> 01:03:11,310
+This is A-A, actually, I've been, I've been, I've been very So, actually, how many of you have heard the Machine Learning Yearning?
+
+491
+01:03:12,030 --> 01:03:13,410
+Oh, just a few of you.
+
+492
+01:03:13,570 --> 01:03:29,200
+Interesting. So, actually, to to, if any of you interested, just in my spare time, oh, I've been writing a book to try to cultify systematic engineering principles for machine learning.
+
+493
+01:03:29,360 --> 01:03:36,690
+And so if you and so if you want your free draft copy of the book, sign up for a mailing list here.
+
+494
+01:03:36,850 --> 01:03:39,110
+I tend to just write stuff and put it on the Internet.
+
+495
+01:03:39,330 --> 01:03:47,150
+So if you want to free drop copy of the book, go to this website and to email address.
+
+496
+01:03:47,470 --> 01:03:49,070
+The website will send you a copy of the book.
+
+497
+01:03:49,230 --> 01:03:51,570
+They'll talk a little bit about these engineering principles as well.
+
+498
+01:03:53,370 --> 01:03:58,980
+All right, so so 1st, okay, machine learning, 2nd subject learning theory.
+
+499
+01:03:59,860 --> 01:04:05,260
+And the 3rd major subject will talk about is deep learning.
+
+500
+01:04:05,260 --> 01:04:10,360
+And so, you know, the lot of tools and machine learning, and many of them are worth learning about.
+
+501
+01:04:10,520 --> 01:04:15,370
+And I use many different tools the machine learning, you know, for many different applications.
+
+502
+01:04:15,670 --> 01:04:21,170
+There's one subsidy machine learning that's really hot right now, because it's just advancing very rapidly, which is deep learning.
+
+503
+01:04:21,560 --> 01:04:29,290
+And so we'll spend a bit of time talking about deep learning so they can understand the basics of how to train a neuron network as well.
+
+504
+01:04:29,610 --> 01:04:40,860
+But I think that, whereas Tuesday Nine covers a much broader set of our rooms, which are all useful since 02:30, more narrowly covers just deep learning.
+
+505
+01:04:42,820 --> 01:04:55,220
+So other than deep learning, slash after after deep learning, such new new networks, the other the the four of the five major topics will cover, will be unsupervised learning.
+
+506
+01:04:55,600 --> 01:05:02,910
+Um? So what is unsupvised learning?
+
+507
+01:05:06,500 --> 01:05:12,040
+So you saw me draw a picture like this just now, right?
+
+508
+01:05:12,040 --> 01:05:12,070
+And
+
+509
+01:05:12,320 --> 01:05:14,310
+this would be a classification problem, like the
+
+510
+01:05:14,600 --> 01:05:22,830
+tumor malignant benign problem, this is a classification, and that was a surprise learning problem, because you have to learn a function mapping from X to y.
+
+511
+01:05:24,060 --> 01:05:28,270
+Unsupervised learning would be if I give you data set like this with
+
+512
+01:05:28,450 --> 01:05:32,350
+no labels, so you just give in inputs X and know
+
+513
+01:05:32,350 --> 01:05:40,060
+why, and you're asked to find me something interesting in this data, figure out interesting structure in this data.
+
+514
+01:05:40,300 --> 01:05:45,930
+UM. And so in this data set, it looks like the two clusters and an unsurvising hour.
+
+515
+01:05:46,090 --> 01:05:48,110
+We should learn about, call kamie's clustering.
+
+516
+01:05:48,490 --> 01:05:55,010
+We'll discover this. UM, this structure in the data, other examples, and schoolize learning.
+
+517
+01:05:55,170 --> 01:05:58,570
+You know, if if you actually Google News is a very interesting website.
+
+518
+01:05:58,590 --> 01:06:01,440
+Sometimes I use it to look up right latest news.
+
+519
+01:06:01,600 --> 01:06:14,210
+This is an only example, but Google News, everyday crawls or meets, I don't know, many, many thousands or tens of thousands of news articles on the Internet, and groups them together, right?
+
+520
+01:06:14,370 --> 01:06:27,970
+E.g., there is a set of articles on the BPR Well spill, and it has taken a lot of the articles written by different reporters and group them together, so you can, you know, figure out that, uh what?
+
+521
+01:06:28,010 --> 01:06:37,150
+BP Uh Maccondo All well right that this is a CNN article about the old Well, spill this Guardian article that all wells.
+
+522
+01:06:37,310 --> 01:06:47,110
+This example of a clustering algorithm, whereas taking these different new sources and figuring out that these are all stories kind of about the same thing, right?
+
+523
+01:06:47,390 --> 01:06:56,040
+Um? And other examples of clustering, just getting data and freaking out what groups belong together.
+
+524
+01:06:56,600 --> 01:06:59,780
+A lot of work on genetic data.
+
+525
+01:06:59,940 --> 01:07:13,420
+This is a visualization of of genetic microwave array days, where, given AIDS like this, you can droop individuals into different types of individuals of different characteristics.
+
+526
+01:07:14,080 --> 01:07:26,110
+Or clustering algorithms, grouping the separate data together is used to organize computing clusters, figure out what machines work, those are more related to each other, and organize community costs appropriately.
+
+527
+01:07:26,490 --> 01:07:36,990
+So they take a social network, like Lincoln or Facebook or other social networks, and figure out which are the groups of friends, or which are the cohesive communities within a social network.
+
+528
+01:07:37,170 --> 01:07:44,070
+Or market segmentation. Actually, many companies I've worked with look at the customer database and cluster the users together.
+
+529
+01:07:44,230 --> 01:07:53,580
+So you can say that, let's say we're four types of users, you know, let's say that there are the young professionals looking to develop themselves.
+
+530
+01:07:53,740 --> 01:08:02,120
+There are the, you know, soccer moms and soccer dads that he discounted in this cavis, who can then market to the different market cycle separately.
+
+531
+01:08:02,680 --> 01:08:12,260
+And And actually, many years ago, my friend Andrew more Uh, was using this type of data for astronomical data analysis, group together galaxies.
+
+532
+01:08:12,560 --> 01:08:18,640
+A question, oh, is arms worth living?
+
+533
+01:08:18,800 --> 01:08:28,050
+Clustering there was not so. As well as learning brought the the concept of using unlabeled data, so just X and finding interesting things about it, right?
+
+534
+01:08:28,330 --> 01:08:35,070
+So, E.G., actually, here's shoot. This won't work without audio.
+
+535
+01:08:35,230 --> 01:08:37,850
+We'll do this later in the class, I guess.
+
+536
+01:08:38,240 --> 01:08:40,140
+Maybe see you and do this later.
+
+537
+01:08:40,300 --> 01:08:46,600
+Cocktail party problem. Uh, is another unsuvis learning problem.
+
+538
+01:08:46,940 --> 01:08:51,960
+Reading the audio for this. To explain this, though, let me think how to explain this.
+
+539
+01:08:52,320 --> 01:08:57,910
+You know, culture party problems. I'll try to do the demo when we can get all your work on this laptop.
+
+540
+01:08:58,070 --> 01:09:15,840
+It's a problem where, um, if you have a noisy room and you stick multiple microphones in the room and recall overlapping voices, so there are no labels, reaches, a multiple microphones, the the ray of microphones in a room of lots of people talking, how can you have the algorithms separate out the people's voices?
+
+541
+01:09:15,840 --> 01:09:20,300
+So that's an unshuised learning problem, because there are no labels.
+
+542
+01:09:20,460 --> 01:09:21,620
+You just stick microphones in the room.
+
+543
+01:09:21,780 --> 01:09:24,420
+And have ever caught different peoples voices overlapping voices?
+
+544
+01:09:24,580 --> 01:09:29,400
+You have multiple at the same time, and then have it try to separate out people's voices.
+
+545
+01:09:29,560 --> 01:09:40,350
+And one of the pro exercises you do later is if we have, you know, five people talking, so each microphone records five people's overlapping voices, right?
+
+546
+01:09:40,510 --> 01:09:43,370
+Because each microphone here's five people at the same time.
+
+547
+01:09:43,410 --> 01:09:48,730
+How can you have an algorithm separate out these voices so you get clean recordings of just one?
+
+548
+01:09:49,200 --> 01:09:51,420
+So that's called the cocktail party problem.
+
+549
+01:09:51,580 --> 01:09:55,160
+And the album you used to do this is called ICO Independent Components Analysis.
+
+550
+01:09:55,560 --> 01:09:59,740
+And that's something you implement in one of the latest homework exercises.
+
+551
+01:10:01,680 --> 01:10:04,400
+And there are other examples of us resoning as well.
+
+552
+01:10:04,960 --> 01:10:07,900
+The Internet has tons of unable text data.
+
+553
+01:10:08,060 --> 01:10:10,200
+You just suck down data from the Internet.
+
+554
+01:10:10,280 --> 01:10:15,340
+There are no labels, necessarily. But can you learn interesting things about language?
+
+555
+01:10:15,360 --> 01:10:17,600
+Figure out? What figure out? I don't know.
+
+556
+01:10:17,620 --> 01:10:24,510
+One of the best sighted results recently was learning analogies like, you know, man is a woman as king, right?
+
+557
+01:10:25,710 --> 01:10:31,980
+Or what a tokyo is to Japan as Washington D-C is the United States.
+
+558
+01:10:32,140 --> 01:10:33,510
+Right? to learn allergies like that.
+
+559
+01:10:33,700 --> 01:10:37,620
+Turns out you can learn in allergies like that from unable data, just from text on the Internet.
+
+560
+01:10:37,640 --> 01:10:39,740
+So that's also on my son.
+
+561
+01:10:42,140 --> 01:10:47,070
+So after Ansuis is learning, oh, and unsurized learning.
+
+562
+01:10:47,110 --> 01:10:50,090
+So, you know, machine learning is very useful today.
+
+563
+01:10:50,250 --> 01:10:56,870
+It turns out that most of the recent wave of economic value created by machine learning is through supervise learning.
+
+564
+01:10:57,270 --> 01:11:03,070
+But there are important use cases for unsurvised learning as well, so I use them in my work occasion.
+
+565
+01:11:03,890 --> 01:11:06,970
+And there's also a beating edge for a lot of exciting research.
+
+566
+01:11:07,810 --> 01:11:10,870
+And then the final topic, find out the five topics will cover.
+
+567
+01:11:11,030 --> 01:11:16,830
+And so talk about suvis learning, machine learning, strategy, deep learning, unsurvised learning.
+
+568
+01:11:16,990 --> 01:11:24,450
+And then the 5th one, is reinforced from learning, is this, which is, let's say I give you the keys to Stanford Autonos helicopter.
+
+569
+01:11:24,610 --> 01:11:26,290
+This helicopter is actually still in my office.
+
+570
+01:11:26,310 --> 01:11:32,390
+I'm trying to figure out how to get rid of it, and I'll see you the radio program to to make it fly right.
+
+571
+01:11:32,550 --> 01:11:33,730
+So how do you do that?
+
+572
+01:11:34,090 --> 01:11:39,360
+So this is a video a helicopter flying.
+
+573
+01:11:39,720 --> 01:11:43,480
+The audio is just of a lot of helicopter noise, so that's not important.
+
+574
+01:11:43,850 --> 01:11:45,450
+But we'll zoom out the videos.
+
+575
+01:11:45,610 --> 01:11:47,810
+You see trees in the sky, right?
+
+576
+01:11:47,970 --> 01:11:51,420
+So you can use learning our that's kind of cool.
+
+577
+01:11:51,720 --> 01:11:53,620
+I was, I was the cameraman that day.
+
+578
+01:11:53,820 --> 01:12:00,080
+But so you can use learning algorithms to get, you know, robots to do pretty interesting things like this.
+
+579
+01:12:00,460 --> 01:12:05,420
+Um. And it turns out that a good way to do this is to reinforce soon learning.
+
+580
+01:12:05,580 --> 01:12:07,240
+So, so it wasn't for soon learning.
+
+581
+01:12:07,350 --> 01:12:11,290
+It turns out that no one knows what's the optimal way to fly helicopter.
+
+582
+01:12:11,450 --> 01:12:15,270
+If you fly a helicopter, you have two control six that you're moving.
+
+583
+01:12:15,280 --> 01:12:18,860
+Um. But no one knows what's the awful way to move to control things.
+
+584
+01:12:19,020 --> 01:12:24,600
+So the way you can get a holochult to fly itself, that's a helicopter, do whatever.
+
+585
+01:12:24,760 --> 01:12:26,260
+Think of it as training a dog.
+
+586
+01:12:26,780 --> 01:12:29,280
+You can't teach a dog the optimal way to behave.
+
+587
+01:12:29,440 --> 01:12:33,470
+But actually, how? How did you have a pet dog, a pet cat before?
+
+588
+01:12:33,910 --> 01:12:36,510
+Oh, not that many. It's fascinating.
+
+589
+01:12:36,810 --> 01:12:43,270
+OK, so I had a pet dog when I was a kid, and my family made it my job to train the dog, sally train the dog.
+
+590
+01:12:43,430 --> 01:12:48,610
+You let the dog do whatever it wants, and then whenever it behaves well, you go, oh, good dog.
+
+591
+01:12:48,610 --> 01:12:51,850
+And when it MS. the Hagues, you go, bad dog.
+
+592
+01:12:52,450 --> 01:12:58,030
+And then over time, the dog learns to do more of the good dog things and fear of the bad dog things.
+
+593
+01:12:58,190 --> 01:13:00,170
+And so reinforcement learning is a bit like that.
+
+594
+01:13:00,350 --> 01:13:02,610
+I don't know what's the awful way to fly a helicopter.
+
+595
+01:13:02,870 --> 01:13:09,790
+So you let the helicopter do whatever it wants, and then whenever it flies well, you know, does some maneuver you winds or flies accurately?
+
+596
+01:13:09,950 --> 01:13:13,970
+You about getting around too much, you go, oh, good helicopter.
+
+597
+01:13:14,320 --> 01:13:16,980
+And when it crashes, to go bad helicopter.
+
+598
+01:13:17,140 --> 01:13:26,620
+And it's the job of the reinforcement learning algorithms to figure out how to control it over time, so as to get more of the good helicopter things and fear the bad helicopter things.
+
+599
+01:13:27,300 --> 01:13:31,100
+And I think, um, well, just one more video.
+
+600
+01:13:31,140 --> 01:13:38,920
+Um. Oh, interesting. Yeah. All right.
+
+601
+01:13:39,080 --> 01:13:45,930
+And so again, given a robot like this, I actually don't know how the programmer actually robot like this has a lot of joints, right?
+
+602
+01:13:45,990 --> 01:13:55,160
+So how do you get a robot like this to climb or obstacles so Well, this is actually a robot dog, so you can actually say Good dog or bad dog.
+
+603
+01:13:56,120 --> 01:14:09,130
+But by giving those signals called a reward signal, you can have a learning arm figure out by itself how to optimize the reward, and therefore climb over these types of obstacles.
+
+604
+01:14:09,290 --> 01:14:18,350
+Um And I think recently, the most famous applications of reinforcing learning have been for game playing, playing Atari games, or playing, you know, game of Go, like an alphago.
+
+605
+01:14:18,770 --> 01:14:33,460
+Um, I think that, I think that game playing has made for some remarkable stunts, a remarkable PR But I'm also equally excited, or maybe even more excited, about the in the roles that reinforcement learning is making.
+
+606
+01:14:33,620 --> 01:14:40,500
+It's a robotics applications, so I think, I think, yeah, reinforcement has been proven to be fantastic for playing games.
+
+607
+01:14:40,660 --> 01:14:48,800
+Is also getting making road traction in optimizing robots and optimizing sort of logistic system things like that.
+
+608
+01:14:50,560 --> 01:14:53,080
+So you learn about all these things.
+
+609
+01:14:53,560 --> 01:15:03,690
+Last thing for today, I hope that you will start to talk, meet people in the class, to make friends, phone trashy partners and study groups.
+
+610
+01:15:04,030 --> 01:15:09,770
+And if you are any questions, you know, dive on the piazza, ask you questions as help others answer the questions.
+
+611
+01:15:09,770 --> 01:15:13,590
+So let's break for today and look what to see you on Wednesday.
+
+612
+01:15:13,750 --> 01:15:15,790
+What does it do to her?
